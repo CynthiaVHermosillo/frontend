@@ -135,3 +135,11 @@ li
   color: #025157;
   margin-right: 18px;
 }
+
+.promo
+{
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+}
