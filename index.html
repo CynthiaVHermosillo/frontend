@@ -1,160 +1,215 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <!-- Aquí va información importante pero no visible dentro del navegador -->
-  <title>Matcha</title>
-  <link rel="stylesheet" href="index.css">
-</head>
-<body>
-  <header class="header">
-    <!-- Regresar págiina principal -->
-    <a href="/" class="logo">
-      <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha"/>
-    </a>
-    <!-- Menu -->
-    <nav class="navbar">
-      <ul class="menu-item">
-        <li>Platform</li>
-        <li>Pricing</li>
-        <li>Customers</li>
-        <li>Resources</li>
-        <li>About</li>
-      </ul>
-    </nav>
-    <!--acciones-->
-    <div class="actions">
-      <a href="">Sing In</a>
-      <button>Start free trial</button>
-    </div>
-  </header>
-  <section class="main">
-    <!-- Esto es lo que se verá en el navegador web -->
-    <h1>Build your blog. Build your business.</h1>
-    <p>Instantly publish articles, drive more traffic, grow your  email list, and see your blog's
-    impact on sales</p>
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,user-scalable=no"
+        >
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./styles.css" />
+        <!-- Aquí va información importante pero no visible dentro del navegador -->
+        <title>Matcha</title>
+        <link rel="stylesheet" href="index.css">
+      </head>
+      <body>
+         <!-- <section class="fixed-header">
+        <header class="header">
+          <!-- Regresar págiina principal --
+          <a href="/" class="logo">
+            <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha"/>
+          </a>
+          <!-- Menu --
+          <nav class="navbar">
+            <ul class="menu-item">
+              <li>Platform</li>
+              <li>Pricing</li>
+              <li>Customers</li>
+              <li>Resources</li>
+              <li>About</li>
+            </ul>
+          </nav>
+          <!--acciones--
+          <div class="actions">
+            <a href="">Sing In</a>
+            <button>Start free trial</button>
+          </div>
+        </header>
+      </section> -->
 
-    <form>
-      <input type="email" />
-      <button type="submit">
-        Try it now &rarr;
-      </button>
-    </form>
-    <p>
-      Start publishing today with a <strong>free 7-day trial.</strong>
-    </p>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fffbf7;">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="#">
+            <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha"/>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Platform</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Customers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+            </ul>
 
-    <p>
-      <strong>No credit card</strong> required.
-    </p>
+            <form class="form-inline my-2 my-lg-0 actions justify-content-end">
+              <div class="actions">
+                <a href="#">Sign In</a>
+                <button>Start Free Trial</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
 
-    <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="imagen capterra" />
-  </section>
+      <section class="main">
+        <!-- Esto es lo que se verá en el navegador web -->
+        <h1>Build your blog. Build your business.</h1>
+        <p>Instantly publish articles, drive more traffic, grow your  email list, and see your blog's
+        impact on sales</p>
 
-  <!--Contenedor de Video-->
-  <section class="promo">
-    <video controls
-    poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg">
-      <source
+        <form>
+          <input type="email" />
+          <button type="submit">
+            Try it now &rarr;
+          </button>
+        </form>
+        <p>
+          Start publishing today with a <strong>free 7-day trial.</strong>
+        </p>
+
+        <p>
+          <strong>No credit card</strong> required.
+        </p>
+
+        <figure class="banner">
+          <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="imagen capterra" />
+        </figure>
+
+      </section>
+
+      <!--Contenedor de Video-->
+      <section class="promo">
+        <video controls
+        poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg">
+        <source
         type="video/webm"
         src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
-      />
-      <source
+        />
+        <source
         type="video/mp4"
         src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+        />
+      </video>
+
+      <img
+      src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png"
+      alt="See how it works"
       />
-    </video>
 
-    <article class="publish">
-      
-      <h3>Publish to your blog in minutes, not hours.</h3>
-      <p>
-        Your blog is your most powerful asset to build, engage, and retain a loyal audience. But you don't have hours to create content that may or may not work. With Matcha, instantly publish from our library of 10,000+ professionally written articles and build your email list faster with our powerful conversion tool.
-      </p>
-      <form>
-        
-        <p>Start publishing today:</p>
-        <div>
-          <br/>
-          <input type="text" name="Enter email" />
-          <button>Start My Trial</button>
+      <article class="publish">
+
+        <h3>Publish to your blog in minutes, not hours.</h3>
+        <p>
+          Your blog is your most powerful asset to build, engage, and retain a loyal audience. But you don't have hours to create content that may or may not work. With Matcha, instantly publish from our library of 10,000+ professionally written articles and build your email list faster with our powerful conversion tool.
+        </p>
+        <form>
+
+          <p>Start publishing today:</p>
+          <div>
+            <br/>
+            <input type="text" name="Enter email" />
+            <button>Start My Trial</button>
+          </div>
+        </form>
+      </article>
+    </section>
+
+    <section class="features">
+      <article class="feature-card">
+        <div class="feature-content">
+          <figure>
+            <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-1.png" alt="Publish icon" />
+          </figure>
+          <h3>Fill your blog with engaging articles</h3>
+          <p>
+            Publish to your blog in less time than it takes to drink your morning coffee.
+          </p>
+          <a href="">Publish instantly →</a>
         </div>
-      </form>
-    </article>
-  </section>
+        <div class="feature-image">
+          <figure>
+            <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png" alt="Publish example" />
+          </figure>
+        </div>
+      </article>
 
-  <section class="features">
-    <article class="feature-card">
-      <div class="feature-content">
-        <figure>
-          <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-1.png" alt="Publish icon" />
-        </figure>
-        <h3>Fill your blog with engaging articles</h3>
-        <p>
-          Publish to your blog in less time than it takes to drink your morning coffee.
-        </p>
-        <a href="">Publish instantly →</a>
-      </div>
-      <div class="feature-image">
-        <figure>
-          <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png" alt="Publish example" />
-        </figure>
-      </div>
-    </article>
+      <article class="feature-card">
+        <div class="feature-content">
+          <figure>
+            <img src="https://getmatcha.com/wp-content/uploads/2020/07/feature-blog-email.png" alt="Site traffic icon" />
+          </figure>
+          <h3>Attract and engage more website vistors.</h3>
+          <p>
+            Enhace your email, social media channels, and paid ads with content from Matcha.
+          </p>
+          <a href="">Get more site traffic →</a>
+        </div>
+        <div class="feature-image">
+          <figure>
+            <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-library-1.png" alt="Site traffic example" />
+          </figure>
+        </div>
+      </article>
 
-    <article class="feature-card">
-      <div class="feature-content">
-        <figure>
-          <img src="https://getmatcha.com/wp-content/uploads/2020/07/feature-blog-email.png" alt="Site traffic icon" />
-        </figure>
-        <h3>Attract and engage more website vistors.</h3>
-        <p>
-          Enhace your email, social media channels, and paid ads with content from Matcha.
-        </p>
-        <a href="">Get more site traffic →</a>
-      </div>
-      <div class="feature-image">
-        <figure>
-          <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-library-1.png" alt="Site traffic example" />
-        </figure>
-      </div>
-    </article>
+      <article class="feature-card">
+        <div class="feature-content">
+          <figure>
+            <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png" alt="Capture Icon" />
+          </figure>
+          <h3>Capture more emails with locked content.</h3>
+          <p>
+            Convert 10x more of your traffic into subscribers and nurture them to a sale.
+          </p>
+          <a href="">Grow your email list faster →</a>
+        </div>
+        <div class="feature-image">
+          <figure>
+            <img src="https://getmatcha.com/wp-content/uploads/2020/07/feature-blog-email.png" alt="Capture example" />
+          </figure>
+        </div>
+      </article>
 
-    <article class="feature-card">
-      <div class="feature-content">
-        <figure>
-          <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png" alt="Capture Icon" />
-        </figure>
-        <h3>Capture more emails with locked content.</h3>
-        <p>
-          Convert 10x more of your traffic into subscribers and nurture them to a sale.
-        </p>
-        <a href="">Grow your email list faster →</a>
-      </div>
-      <div class="feature-image">
-        <figure>
-          <img src="https://getmatcha.com/wp-content/uploads/2020/07/feature-blog-email.png" alt="Capture example" />
-        </figure>
-      </div>
-    </article>
+      <article class="feature-card">
+        <div class="feature-content">
+          <figure>
+            <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-library-1.png" alt="ROI icon" />
+          </figure>
+          <h3>Optimize your blog's performance.</h3>
+          <p>
+            See whst content delivers the most traffic, engagement, email subscribers, and sales.
+          </p>
+          <a href="">See content's ROI →</a>
+        </div>
+        <div class="feature-image">
+          <figure>
+            <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png" alt="ROI example" />
+          </figure>
+        </div>
+      </article>
+    </section>
 
-    <article class="feature-card">
-      <div class="feature-content">
-        <figure>
-          <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-library-1.png" alt="ROI icon" />
-        </figure>
-        <h3>Optimize your blog's performance.</h3>
-        <p>
-          See whst content delivers the most traffic, engagement, email subscribers, and sales.
-        </p>
-        <a href="">See content's ROI →</a>
-      </div>
-      <div class="feature-image">
-        <figure>
-          <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png" alt="ROI example" />
-        </figure>
-      </div>
-    </article>
-  </section>
-
-</body>
-</html>
+  </body>
+  </html>
